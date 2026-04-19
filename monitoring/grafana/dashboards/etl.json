@@ -1,0 +1,157 @@
+{
+  "title": "Weather ETL",
+  "uid": "weather-etl",
+  "schemaVersion": 38,
+  "refresh": "15s",
+  "time": { "from": "now-1h", "to": "now" },
+  "panels": [
+    {
+      "id": 1,
+      "title": "Pipeline Status",
+      "description": "Seconds since last fully successful ETL cycle. Alert if this exceeds 120.",
+      "type": "stat",
+      "gridPos": { "x": 0, "y": 0, "w": 6, "h": 4 },
+      "options": {
+        "reduceOptions": { "calcs": ["lastNotNull"] },
+        "colorMode": "background",
+        "thresholds": {
+          "mode": "absolute",
+          "steps": [
+            { "color": "green", "value": null },
+            { "color": "yellow", "value": 60 },
+            { "color": "red", "value": 120 }
+          ]
+        }
+      },
+      "targets": [
+        {
+          "expr": "time() - etl_last_successful_run_timestamp",
+          "legendFormat": "Seconds since last run"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "API Errors / sec",
+      "description": "Rate of failed OWM API calls. A spike here means a city fetch is failing while the pipeline status gauge may still look healthy.",
+      "type": "stat",
+      "gridPos": { "x": 6, "y": 0, "w": 6, "h": 4 },
+      "options": {
+        "reduceOptions": { "calcs": ["lastNotNull"] },
+        "colorMode": "background",
+        "thresholds": {
+          "mode": "absolute",
+          "steps": [
+            { "color": "green", "value": null },
+            { "color": "red", "value": 0.001 }
+          ]
+        }
+      },
+      "targets": [
+        {
+          "expr": "rate(etl_api_requests_total{status=\"failure\"}[1m])",
+          "legendFormat": "API errors/sec"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "API Requests / sec",
+      "description": "Rate of successful vs failed OpenWeatherMap API calls.",
+      "type": "timeseries",
+      "gridPos": { "x": 0, "y": 4, "w": 12, "h": 8 },
+      "fieldConfig": {
+        "defaults": { "unit": "reqps" },
+        "overrides": [
+          { "matcher": { "id": "byName", "options": "failure" }, "properties": [{ "id": "color", "value": { "fixedColor": "red", "mode": "fixed" } }] },
+          { "matcher": { "id": "byName", "options": "success" }, "properties": [{ "id": "color", "value": { "fixedColor": "green", "mode": "fixed" } }] }
+        ]
+      },
+      "targets": [
+        {
+          "expr": "rate(etl_api_requests_total[1m])",
+          "legendFormat": "{{status}}"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "API Latency Percentiles",
+      "description": "p50 / p95 / p99 response time from OpenWeatherMap.",
+      "type": "timeseries",
+      "gridPos": { "x": 12, "y": 4, "w": 12, "h": 8 },
+      "fieldConfig": { "defaults": { "unit": "s" } },
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.50, rate(etl_api_latency_seconds_bucket[1m]))",
+          "legendFormat": "p50"
+        },
+        {
+          "expr": "histogram_quantile(0.95, rate(etl_api_latency_seconds_bucket[1m]))",
+          "legendFormat": "p95"
+        },
+        {
+          "expr": "histogram_quantile(0.99, rate(etl_api_latency_seconds_bucket[1m]))",
+          "legendFormat": "p99"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Records Saved / sec",
+      "description": "Data flowing through each stage and backend.",
+      "type": "timeseries",
+      "gridPos": { "x": 0, "y": 12, "w": 8, "h": 8 },
+      "fieldConfig": { "defaults": { "unit": "ops" } },
+      "targets": [
+        {
+          "expr": "rate(etl_records_saved_total[1m])",
+          "legendFormat": "{{type}} → {{backend}}"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "DWH Deduplication",
+      "description": "Saved = new OWM observation written to Postgres. Skipped = duplicate observed_at, upsert DO NOTHING. Spikes in saved every ~10 min confirm OWM cadence.",
+      "type": "timeseries",
+      "gridPos": { "x": 8, "y": 12, "w": 8, "h": 8 },
+      "fieldConfig": {
+        "defaults": { "unit": "ops" },
+        "overrides": [
+          { "matcher": { "id": "byName", "options": "saved" }, "properties": [{ "id": "color", "value": { "fixedColor": "green", "mode": "fixed" } }] },
+          { "matcher": { "id": "byName", "options": "skipped" }, "properties": [{ "id": "color", "value": { "fixedColor": "orange", "mode": "fixed" } }] }
+        ]
+      },
+      "targets": [
+        {
+          "expr": "rate(etl_records_saved_total{type=\"processed\", backend=\"postgres\"}[1m])",
+          "legendFormat": "saved"
+        },
+        {
+          "expr": "rate(etl_records_skipped_total{type=\"processed\", backend=\"postgres\"}[1m])",
+          "legendFormat": "skipped"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Transform Errors / sec",
+      "description": "Spikes here indicate the OWM API response schema changed.",
+      "type": "timeseries",
+      "gridPos": { "x": 16, "y": 12, "w": 8, "h": 8 },
+      "fieldConfig": {
+        "defaults": { "unit": "ops" },
+        "overrides": [
+          { "matcher": { "id": "byName", "options": "errors" }, "properties": [{ "id": "color", "value": { "fixedColor": "red", "mode": "fixed" } }] }
+        ]
+      },
+      "targets": [
+        {
+          "expr": "rate(etl_transform_errors_total[1m])",
+          "legendFormat": "errors"
+        }
+      ]
+    }
+  ]
+}

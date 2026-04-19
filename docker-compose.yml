@@ -1,0 +1,59 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./migrations/001_init.sql:/docker-entrypoint-initdb.d/001_init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U etl -d weather"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build: .
+    env_file: .env
+    environment:
+      DB_DSN: postgres://${DB_USER}:${DB_PASSWORD}@postgres:5432/${DB_NAME}?sslmode=disable
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  prometheus:
+    image: prom/prometheus:v2.51.2
+    volumes:
+      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - promdata:/prometheus
+    ports:
+      - "9090:9090"
+    depends_on:
+      - app
+
+  grafana:
+    image: grafana/grafana:10.4.2
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - grafanadata:/var/lib/grafana
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning
+      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+
+volumes:
+  pgdata:
+  promdata:
+  grafanadata:
