@@ -12,13 +12,13 @@ OpenWeatherMap API  (London, Madrid, Prague — concurrent)
        ▼
   [Extractor]  ──── HTTP GET every 30s per city (goroutine per city)
        │
-       ├──► data/raw/YYYY-MM-DD.json        (append every fetch)
-       ├──► PostgreSQL: weather_raw         (insert every fetch)
+       ├──► data/raw/city=<city>/date=YYYY-MM-DD/data.json   (append every fetch)
+       ├──► PostgreSQL: weather_raw                         (insert every fetch)
        │
        ▼
   [Transformer]  ── normalize fields, drop UI-only data, UTC timestamps
        │
-       ├──► data/processed/YYYY-MM-DD.json  (append every fetch)
+       ├──► data/processed/city=<city>/date=YYYY-MM-DD/data.json  (append every fetch)
        ├──► PostgreSQL: weather_processed   (upsert — deduplicate on city + observed_at)
        │
        ▼
@@ -34,7 +34,7 @@ OpenWeatherMap API  (London, Madrid, Prague — concurrent)
 
 | Layer | Storage | Behaviour |
 |---|---|---|
-| Data lake | `data/raw/` files + `weather_raw` table | Append everything — full fidelity, audit trail |
+| Data lake | `data/raw/city=<city>/date=YYYY-MM-DD/data.json` + `weather_raw` table | Append everything — full fidelity, audit trail |
 | Data warehouse | `weather_processed` table | Upsert on `(city, observed_at)` — one row per real OWM observation, no duplicates |
 
 OWM publishes new observations roughly every 10 minutes. The pipeline fetches every 30 seconds, so ~20 fetches map to a single DWH row. The file layer keeps every fetch; the warehouse keeps only meaningful state changes.
@@ -100,7 +100,7 @@ open http://localhost:9090
 ### 4. Inspect persisted data
 
 ```bash
-# Local files (one JSON array per day)
+# Local files — Hive-partitioned by city and date
 ls data/raw/
 ls data/processed/
 cat logs/etl.log | head -20
@@ -138,11 +138,11 @@ Copy `.env.example` to `.env`. All variables are read at startup.
 
 ## Data Model
 
-### Raw (`data/raw/YYYY-MM-DD.json` + `weather_raw` table)
+### Raw (`data/raw/city=<city>/date=YYYY-MM-DD/data.json` + `weather_raw` table)
 
 The full OpenWeatherMap API response, stored as-is with an added `ingested_at` timestamp marking when the pipeline fetched it. Useful for reprocessing, debugging, and auditing exactly what the upstream API returned.
 
-### Processed (`data/processed/YYYY-MM-DD.json` + `weather_processed` table)
+### Processed (`data/processed/city=<city>/date=YYYY-MM-DD/data.json` + `weather_processed` table)
 
 A normalized, analytics-friendly record. OWM-internal IDs, icon codes, and sunrise/sunset are dropped. All units are SI.
 
@@ -174,12 +174,16 @@ A normalized, analytics-friendly record. OWM-internal IDs, icon codes, and sunri
 ```
 data/
 ├── raw/
-│   └── 2024-01-15.json   ← JSON array, one entry per fetch (every 30s)
+│   ├── city=london/date=2024-01-15/data.json
+│   ├── city=madrid/date=2024-01-15/data.json
+│   └── city=prague/date=2024-01-15/data.json
 └── processed/
-    └── 2024-01-15.json   ← JSON array, one entry per fetch (every 30s)
+    ├── city=london/date=2024-01-15/data.json
+    ├── city=madrid/date=2024-01-15/data.json
+    └── city=prague/date=2024-01-15/data.json
 ```
 
-Files rotate at UTC midnight. Both layers append every cycle; deduplication only applies to the Postgres DWH table.
+Each city writes to its own file, eliminating concurrent write conflicts. Partition directories are created on first write and rotate at UTC midnight. Both layers append every cycle; deduplication only applies to the Postgres DWH table.
 
 ### DWH deduplication
 
@@ -342,7 +346,7 @@ AWS MWAA (Managed Workflows for Apache Airflow) removes the need to self-manage 
 
 ### S3 Partitioning and Predicate Pushdown
 
-Raw and processed files are currently named `YYYY-MM-DD.json`. In production, write Parquet files to S3 with a Hive-style partition layout:
+Raw and processed files already use a Hive-style partition layout locally. In production, write Parquet files to S3 with the same structure, extended with sub-day partitions:
 
 ```
 s3://bucket/processed/city=London/year=2024/month=01/day=15/HH-MM.parquet

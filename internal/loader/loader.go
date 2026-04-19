@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 )
 
@@ -22,16 +23,21 @@ func New(rawDir, processedDir string) (*Loader, error) {
 	return &Loader{rawDir: rawDir, processedDir: processedDir}, nil
 }
 
-func (l *Loader) SaveRaw(data any) (string, error) {
-	return appendToFile(l.rawDir, data)
+func (l *Loader) SaveRaw(city string, data any) (string, error) {
+	return appendToFile(l.rawDir, city, data)
 }
 
-func (l *Loader) SaveProcessed(data any) (string, error) {
-	return appendToFile(l.processedDir, data)
+func (l *Loader) SaveProcessed(city string, data any) (string, error) {
+	return appendToFile(l.processedDir, city, data)
 }
 
-func appendToFile(dir string, data any) (string, error) {
-	filename := filepath.Join(dir, time.Now().UTC().Format("2006-01-02")+".json")
+func appendToFile(dir, city string, data any) (string, error) {
+	date := time.Now().UTC().Format("2006-01-02")
+	partitionDir := filepath.Join(dir, "city="+strings.ToLower(city), "date="+date)
+	if err := os.MkdirAll(partitionDir, 0o755); err != nil {
+		return "", fmt.Errorf("failed to create partition dir %s: %w", partitionDir, err)
+	}
+	filename := filepath.Join(partitionDir, "data.json")
 
 	var records []json.RawMessage
 

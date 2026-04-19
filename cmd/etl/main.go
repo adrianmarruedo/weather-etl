@@ -113,7 +113,7 @@ func runCycle(
 	server.APIRequestsTotal.WithLabelValues("success").Inc()
 	log.Info("api request succeeded", "city", raw.Name, "latency_ms", latency.Milliseconds())
 
-	if path, err := ldr.SaveRaw(raw); err != nil {
+	if path, err := ldr.SaveRaw(raw.Name, raw); err != nil {
 		log.Error("failed to save raw file", "error", err, "city", raw.Name)
 	} else {
 		server.RecordsSavedTotal.WithLabelValues("raw", "file").Inc()
@@ -135,7 +135,7 @@ func runCycle(
 	}
 	log.Info("transformation succeeded", "city", processed.City, "temp_c", processed.TemperatureCelsius)
 
-	if path, err := ldr.SaveProcessed(processed); err != nil {
+	if path, err := ldr.SaveProcessed(processed.City, processed); err != nil {
 		log.Error("failed to save processed file", "error", err, "city", processed.City)
 	} else {
 		server.RecordsSavedTotal.WithLabelValues("processed", "file").Inc()
