@@ -37,3 +37,6 @@ go.work.sum
 # Data
 data/
 
+# Logs
+logs/
+
