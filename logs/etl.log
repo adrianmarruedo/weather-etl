@@ -1,0 +1,1202 @@
+{"time":"2026-04-17T17:33:10.560316046Z","level":"INFO","msg":"connected to postgres"}
+{"time":"2026-04-17T17:33:10.564564546Z","level":"INFO","msg":"etl pipeline starting","interval_seconds":30,"city":"London"}
+{"time":"2026-04-17T17:33:10.564841213Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:33:10.564662296Z","level":"INFO","msg":"http server starting","port":"8080"}
+{"time":"2026-04-17T17:33:10.724934171Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":159}
+{"time":"2026-04-17T17:33:10.727919088Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:33:10.732254004Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:33:10.732580921Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:33:10.734482671Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:33:10.736231088Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:33:10.736508088Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:33:40.754406296Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:33:40.781278796Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":24}
+{"time":"2026-04-17T17:33:40.786814921Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:33:40.789682338Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:33:40.790034004Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:33:40.793137546Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:33:40.794178004Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:33:40.794416588Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:34:10.743515296Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:34:10.779646046Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":28}
+{"time":"2026-04-17T17:34:10.790712004Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:34:10.798536796Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:34:10.798997754Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:34:10.804108379Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:34:10.805631963Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:34:10.805957088Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:34:40.751729754Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:34:40.814945338Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":38}
+{"time":"2026-04-17T17:34:40.830966504Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:34:40.836492088Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:34:40.837013129Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:34:40.840581796Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:34:40.841653546Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:34:40.841924338Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:35:10.744004754Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:35:10.797598588Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":33}
+{"time":"2026-04-17T17:35:10.807538713Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:35:10.811410129Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:35:10.811807046Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:35:10.814441088Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:35:10.815607421Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:35:10.816345129Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:35:40.753793588Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:35:40.810441838Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":34}
+{"time":"2026-04-17T17:35:40.815949546Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:35:40.820002713Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:35:40.820401629Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:35:40.823227171Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:35:40.824193713Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:35:40.824375754Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:36:10.773358588Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:36:10.817166713Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":30}
+{"time":"2026-04-17T17:36:10.825431379Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:36:10.830051004Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:36:10.830596046Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:36:10.834920129Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:36:10.836516463Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:36:10.837226379Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:36:40.775738213Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:36:40.867109504Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":71}
+{"time":"2026-04-17T17:36:40.894941088Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:36:40.900393171Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:36:40.900877671Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:36:40.903928463Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:36:40.905338213Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:36:40.905725504Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:37:10.755267129Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:37:10.812273254Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":28}
+{"time":"2026-04-17T17:37:10.826643879Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:37:10.829738713Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:37:10.830033046Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:37:10.833017629Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:37:10.833935629Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:37:10.834163838Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:37:40.777702046Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:37:40.847948213Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":40}
+{"time":"2026-04-17T17:37:40.865758546Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:37:40.872008379Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:37:40.872507796Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:37:40.876606296Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:37:40.878168588Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:37:40.878446421Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:38:10.748406463Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:38:10.921569254Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":148}
+{"time":"2026-04-17T17:38:10.934185921Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:38:10.939013463Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:38:10.939650463Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:38:10.944676629Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:38:10.946426296Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:38:10.946734254Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:38:40.757004379Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:38:40.800441379Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":31}
+{"time":"2026-04-17T17:38:40.812248796Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:38:40.821319671Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:38:40.821846921Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:38:40.826620629Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:38:40.828540421Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:38:40.828859504Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:39:10.772476546Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:39:10.834909254Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":48}
+{"time":"2026-04-17T17:39:10.847448963Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:39:10.859899796Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:39:10.860837754Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:39:10.864861629Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:39:10.866051379Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:39:10.866375088Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:39:40.747619421Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:39:40.811857963Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":35}
+{"time":"2026-04-17T17:39:40.830823338Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:39:40.840467296Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:39:40.840990963Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:39:40.844476296Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:39:40.845902713Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:39:40.846337004Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:40:10.751172171Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:40:10.797971129Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":37}
+{"time":"2026-04-17T17:40:10.804107296Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:40:10.806648046Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:40:10.806949171Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:40:10.809985713Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:40:10.810870713Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:40:10.811084713Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:40:40.750740963Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:40:40.801859046Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":27}
+{"time":"2026-04-17T17:40:40.821672754Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:40:40.825595921Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:40:40.825990838Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:40:40.832454338Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:40:40.833733213Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:40:40.834029004Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:41:10.774859296Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:41:10.881504421Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":86}
+{"time":"2026-04-17T17:41:10.892250046Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:41:10.899608213Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:41:10.900265213Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:41:10.906203713Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:41:10.907595754Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:41:10.908024004Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:41:40.782350838Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:41:40.831141129Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":20}
+{"time":"2026-04-17T17:41:40.837425004Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:41:40.840997463Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:41:40.841983004Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:41:40.849065338Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:41:40.850997129Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:41:40.851690213Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:42:10.784969921Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:42:10.839280546Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":34}
+{"time":"2026-04-17T17:42:10.850617421Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:42:10.854398504Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:42:10.854877004Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":17.05}
+{"time":"2026-04-17T17:42:10.858465004Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:42:10.859794838Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:42:10.860113754Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:42:40.758899754Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:42:40.824869213Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":30}
+{"time":"2026-04-17T17:42:40.831514379Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:42:40.835013713Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:42:40.835479588Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":16.97}
+{"time":"2026-04-17T17:42:40.838387046Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:42:40.839394254Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:42:40.839593546Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:43:10.767496504Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:43:10.798879963Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":25}
+{"time":"2026-04-17T17:43:10.809087504Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:43:10.813268296Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:43:10.813778421Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":16.97}
+{"time":"2026-04-17T17:43:10.820957046Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:43:10.822458296Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:43:10.822814171Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:43:40.753496837Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:43:40.797282379Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":28}
+{"time":"2026-04-17T17:43:40.811656879Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:43:40.823502171Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:43:40.823995671Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":16.97}
+{"time":"2026-04-17T17:43:40.827016213Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:43:40.828151004Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:43:40.828659338Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:44:10.759193754Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:44:10.815634046Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":25}
+{"time":"2026-04-17T17:44:10.826348379Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:44:10.831030254Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:44:10.831589754Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":16.97}
+{"time":"2026-04-17T17:44:10.834913921Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:44:10.836468254Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:44:10.836864296Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:44:40.750100879Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:44:40.800330171Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":27}
+{"time":"2026-04-17T17:44:40.807305587Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:44:40.811940004Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:44:40.812354921Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":16.97}
+{"time":"2026-04-17T17:44:40.817758046Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:44:40.819045046Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:44:40.819418212Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:45:10.753372671Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:45:10.810340421Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":39}
+{"time":"2026-04-17T17:45:10.820188671Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:45:10.824998171Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:45:10.825410087Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":16.97}
+{"time":"2026-04-17T17:45:10.829451754Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:45:10.831058212Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:45:10.831386879Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:45:40.766202671Z","level":"INFO","msg":"etl cycle started"}
+{"time":"2026-04-17T17:45:40.857027796Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":61}
+{"time":"2026-04-17T17:45:40.886188838Z","level":"INFO","msg":"raw data saved to file"}
+{"time":"2026-04-17T17:45:40.891090379Z","level":"INFO","msg":"raw data saved to postgres"}
+{"time":"2026-04-17T17:45:40.892031213Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":16.97}
+{"time":"2026-04-17T17:45:40.898683338Z","level":"INFO","msg":"processed data saved to file"}
+{"time":"2026-04-17T17:45:40.900427796Z","level":"INFO","msg":"processed data saved to postgres"}
+{"time":"2026-04-17T17:45:40.900881588Z","level":"INFO","msg":"etl cycle completed successfully"}
+{"time":"2026-04-17T17:45:46.320576132Z","level":"INFO","msg":"shutting down","signal":15}
+{"time":"2026-04-19T11:39:21.398864838Z","level":"INFO","msg":"connected to postgres"}
+{"time":"2026-04-19T11:39:21.401255629Z","level":"INFO","msg":"http server starting","port":"8080"}
+{"time":"2026-04-19T11:39:21.401184088Z","level":"INFO","msg":"etl pipeline starting","interval_seconds":30,"cities":["London","Madrid","Prague"]}
+{"time":"2026-04-19T11:39:21.537784796Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":135}
+{"time":"2026-04-19T11:39:21.537808046Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":134}
+{"time":"2026-04-19T11:39:21.537828421Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":134}
+{"time":"2026-04-19T11:39:21.542019171Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:39:21.545859796Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:39:21.54971638Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:39:21.550025588Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:39:21.552314546Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:39:21.553293505Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:39:21.553703213Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:39:21.554408671Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:39:21.55543563Z","level":"INFO","msg":"processed data saved to postgres","table":"weather.weather_processed","city":"Prague"}
+{"time":"2026-04-19T11:39:21.556037046Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:39:21.555728171Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:39:21.556885796Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.53}
+{"time":"2026-04-19T11:39:21.558394296Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:39:21.559629921Z","level":"INFO","msg":"processed data saved to postgres","table":"weather.weather_processed","city":"Madrid"}
+{"time":"2026-04-19T11:39:21.560010213Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:39:21.560715338Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:39:21.56150688Z","level":"INFO","msg":"processed data saved to postgres","table":"weather.weather_processed","city":"London"}
+{"time":"2026-04-19T11:39:21.561701421Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:39:51.608731963Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":30}
+{"time":"2026-04-19T11:39:51.60873338Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":35}
+{"time":"2026-04-19T11:39:51.617648463Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:39:51.618511671Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:39:51.62166438Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:39:51.622164171Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:39:51.622061546Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:39:51.623226796Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:39:51.62592838Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:39:51.626242255Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:39:51.627045588Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:33:34Z"}
+{"time":"2026-04-19T11:39:51.627317713Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:39:51.627090755Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:39:51.627843213Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:39:51.62762988Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":56}
+{"time":"2026-04-19T11:39:51.630477255Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:39:51.631442921Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:39:51.631680796Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.53}
+{"time":"2026-04-19T11:39:51.63427113Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:39:51.634988296Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:34:11Z"}
+{"time":"2026-04-19T11:39:51.635213755Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:40:21.631969213Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":48}
+{"time":"2026-04-19T11:40:21.631967296Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":46}
+{"time":"2026-04-19T11:40:21.647665505Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":66}
+{"time":"2026-04-19T11:40:21.65617063Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:40:21.65686363Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:40:21.657357505Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:40:21.678206755Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:40:21.680534713Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:40:21.688598213Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:40:21.689120088Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.53}
+{"time":"2026-04-19T11:40:21.688762963Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:40:21.701997046Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:40:21.703509338Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:40:21.704467296Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:40:21.705880088Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:34:11Z"}
+{"time":"2026-04-19T11:40:21.706396755Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:40:21.711081921Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:40:21.711399005Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:40:21.720844046Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:40:21.721633005Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:33:34Z"}
+{"time":"2026-04-19T11:40:21.721852005Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:40:51.623293046Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":38}
+{"time":"2026-04-19T11:40:51.623289921Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":39}
+{"time":"2026-04-19T11:40:51.634433213Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:40:51.635574588Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:40:51.642824921Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:40:51.64390863Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.53}
+{"time":"2026-04-19T11:40:51.644019546Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:40:51.644902338Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:40:51.645086213Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":61}
+{"time":"2026-04-19T11:40:51.650300505Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:40:51.650722088Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:40:51.651283796Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:40:51.652764421Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:34:11Z"}
+{"time":"2026-04-19T11:40:51.653300963Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:40:51.653132046Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:40:51.666924755Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:40:51.67117863Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:40:51.671773213Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:40:51.67415188Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:40:51.676648713Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:33:34Z"}
+{"time":"2026-04-19T11:40:51.677066838Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:41:21.614306755Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":42}
+{"time":"2026-04-19T11:41:21.61439013Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":42}
+{"time":"2026-04-19T11:41:21.620269505Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:41:21.620662963Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:41:21.62702363Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:41:21.627304588Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:41:21.630204796Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:41:21.63067313Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:41:21.631296296Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.53}
+{"time":"2026-04-19T11:41:21.631567421Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:33:34Z"}
+{"time":"2026-04-19T11:41:21.632082463Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:41:21.633871463Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:41:21.634342671Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":62}
+{"time":"2026-04-19T11:41:21.635089588Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:34:11Z"}
+{"time":"2026-04-19T11:41:21.635293838Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:41:21.637227588Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:41:21.638446255Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:41:21.638655005Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:41:21.641078296Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:41:21.641706171Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:41:21.641883213Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:41:51.615825921Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":38}
+{"time":"2026-04-19T11:41:51.616360713Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":38}
+{"time":"2026-04-19T11:41:51.628222505Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:41:51.628914255Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:41:51.635734046Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":57}
+{"time":"2026-04-19T11:41:51.637245838Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:41:51.638089546Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:41:51.64002263Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:41:51.64043838Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:41:51.640725046Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.53}
+{"time":"2026-04-19T11:41:51.641707463Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:41:51.64276313Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:41:51.643853171Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:41:51.643705546Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:41:51.643757546Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:41:51.644830213Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:41:51.64485938Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:34:11Z"}
+{"time":"2026-04-19T11:41:51.64538538Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:41:51.64638613Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:41:51.647085296Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:33:34Z"}
+{"time":"2026-04-19T11:41:51.647359005Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:42:21.680010463Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":111}
+{"time":"2026-04-19T11:42:21.679999755Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":111}
+{"time":"2026-04-19T11:42:21.702684796Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:42:21.703566963Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:42:21.710418088Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":143}
+{"time":"2026-04-19T11:42:21.711019671Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:42:21.712177171Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.53}
+{"time":"2026-04-19T11:42:21.722686046Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:42:21.723165588Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:42:21.722937421Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:42:21.725035338Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:42:21.72594088Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:42:21.726366755Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:42:21.72952438Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:42:21.730205171Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:34:11Z"}
+{"time":"2026-04-19T11:42:21.73070038Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:42:21.73097313Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:42:21.731552213Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:33:34Z"}
+{"time":"2026-04-19T11:42:21.732435005Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:42:21.732607213Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:42:21.733104088Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:42:51.617574213Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":34}
+{"time":"2026-04-19T11:42:51.617574838Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":35}
+{"time":"2026-04-19T11:42:51.633188463Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:42:51.633444463Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:42:51.638239046Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":61}
+{"time":"2026-04-19T11:42:51.641017588Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:42:51.641394796Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.53}
+{"time":"2026-04-19T11:42:51.644365921Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:42:51.645721005Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:42:51.644980505Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:42:51.649980838Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:42:51.65106038Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:42:51.651527088Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:42:51.651815838Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:34:11Z"}
+{"time":"2026-04-19T11:42:51.65232263Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:42:51.653342421Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:42:51.65425438Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:42:51.654479588Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:42:51.654795796Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:42:51.65547388Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:33:34Z"}
+{"time":"2026-04-19T11:42:51.655722713Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:43:21.636676213Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":40}
+{"time":"2026-04-19T11:43:21.637059796Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":40}
+{"time":"2026-04-19T11:43:21.650737838Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:43:21.657230213Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":61}
+{"time":"2026-04-19T11:43:21.660849004Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:43:21.665954129Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:43:21.666289171Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:43:21.666560671Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:43:21.666584754Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:43:21.667618588Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.53}
+{"time":"2026-04-19T11:43:21.668211754Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:43:21.669530421Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:43:21.675926463Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:43:21.680849838Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:43:21.681486921Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:43:21.683975879Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:43:21.684562379Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:43:21.685388629Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:34:11Z"}
+{"time":"2026-04-19T11:43:21.685903796Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:43:21.686755171Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:33:34Z"}
+{"time":"2026-04-19T11:43:21.687223129Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:43:51.618865463Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":46}
+{"time":"2026-04-19T11:43:51.618866296Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":47}
+{"time":"2026-04-19T11:43:51.628338171Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:43:51.628592963Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:43:51.634209088Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:43:51.634602213Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.53}
+{"time":"2026-04-19T11:43:51.634305713Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:43:51.635459713Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:43:51.639919963Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":72}
+{"time":"2026-04-19T11:43:51.642440046Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:43:51.642483921Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:43:51.643107088Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:43:51.643999046Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:34:11Z"}
+{"time":"2026-04-19T11:43:51.644271796Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:43:51.644106629Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:43:51.645094588Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:43:51.675852963Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:43:51.676374504Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:43:51.680709671Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:43:51.681537504Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:33:34Z"}
+{"time":"2026-04-19T11:43:51.682002338Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:44:21.726255921Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":143}
+{"time":"2026-04-19T11:44:21.724946254Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":143}
+{"time":"2026-04-19T11:44:21.754143546Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:44:21.756190421Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:44:21.759905796Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:44:21.760217213Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.53}
+{"time":"2026-04-19T11:44:21.759987963Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:44:21.760802921Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:44:21.762694629Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":180}
+{"time":"2026-04-19T11:44:21.764652921Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:44:21.764671629Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:44:21.765760004Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:44:21.766122629Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:44:21.765770504Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:44:21.766000671Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:34:11Z"}
+{"time":"2026-04-19T11:44:21.766970588Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:44:21.767201046Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:44:21.767537879Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:44:21.770677088Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:44:21.771473754Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:33:34Z"}
+{"time":"2026-04-19T11:44:21.771924254Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:44:51.611891421Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":40}
+{"time":"2026-04-19T11:44:51.611891629Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":40}
+{"time":"2026-04-19T11:44:51.624056963Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:44:51.624441338Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:44:51.629574629Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:44:51.629922463Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:44:51.629653713Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:44:51.630553088Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:44:51.631559296Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":59}
+{"time":"2026-04-19T11:44:51.636555879Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:44:51.640673754Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:44:51.642547088Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:44:51.642568921Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:33:34Z"}
+{"time":"2026-04-19T11:44:51.643502296Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:44:51.642720838Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:44:51.644039004Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:44:51.643705296Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:44:51.644540379Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.53}
+{"time":"2026-04-19T11:44:51.646914879Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:44:51.647534671Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:34:11Z"}
+{"time":"2026-04-19T11:44:51.647746629Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:45:21.619994879Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":46}
+{"time":"2026-04-19T11:45:21.622521713Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":46}
+{"time":"2026-04-19T11:45:21.628006879Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:45:21.629783046Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:45:21.632351379Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:45:21.632704879Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.57}
+{"time":"2026-04-19T11:45:21.636223254Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:45:21.636624463Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:45:21.636945504Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:45:21.639861379Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:45:21.641040921Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":64}
+{"time":"2026-04-19T11:45:21.641588338Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:33:34Z"}
+{"time":"2026-04-19T11:45:21.641859546Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:45:21.643298004Z","level":"INFO","msg":"processed data saved to postgres","table":"weather.weather_processed","city":"London"}
+{"time":"2026-04-19T11:45:21.643559463Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:45:21.643777588Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:45:21.644792796Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:45:21.645037463Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:45:21.647856046Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:45:21.648667463Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:45:21.649214379Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:45:51.599410629Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":26}
+{"time":"2026-04-19T11:45:51.607964296Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:45:51.610632296Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:45:51.611131046Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:45:51.617745463Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:45:51.620156588Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":45}
+{"time":"2026-04-19T11:45:51.622151713Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":47}
+{"time":"2026-04-19T11:45:51.623440296Z","level":"INFO","msg":"processed data saved to postgres","table":"weather.weather_processed","city":"Prague"}
+{"time":"2026-04-19T11:45:51.623717171Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:45:51.626178838Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:45:51.626507713Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:45:51.627148254Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:45:51.627390463Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:45:51.629450504Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:45:51.630012754Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:45:51.630241921Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:45:51.630451546Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:45:51.630609088Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:45:51.632595004Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:45:51.633177879Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:45:51.633405713Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:46:21.679652629Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":102}
+{"time":"2026-04-19T11:46:21.679652588Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":102}
+{"time":"2026-04-19T11:46:21.679652546Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":102}
+{"time":"2026-04-19T11:46:21.688880713Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:46:21.691517754Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:46:21.691881838Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:46:21.694716879Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:46:21.695416379Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:46:21.694713296Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:46:21.695957046Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:46:21.700703629Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:46:21.700998004Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:46:21.701890546Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:46:21.702219004Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:46:21.701896129Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:46:21.703620463Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:46:21.702828671Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:46:21.704195129Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:46:21.710586838Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:46:21.711410963Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:46:21.711629254Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:46:51.682458588Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":102}
+{"time":"2026-04-19T11:46:51.682477921Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":103}
+{"time":"2026-04-19T11:46:51.694215171Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:46:51.694459213Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:46:51.699918504Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:46:51.700370463Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:46:51.703682963Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:46:51.704201463Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:46:51.704898629Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:46:51.704271963Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":124}
+{"time":"2026-04-19T11:46:51.705486004Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:46:51.706584629Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:46:51.708749588Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:46:51.709116463Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:46:51.709606546Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:46:51.709912838Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:46:51.710613046Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:46:51.710859379Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:46:51.713575838Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:46:51.717164046Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:46:51.717666588Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:47:21.616721754Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":41}
+{"time":"2026-04-19T11:47:21.616725088Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":41}
+{"time":"2026-04-19T11:47:21.630544713Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:47:21.631770754Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:47:21.638619671Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":64}
+{"time":"2026-04-19T11:47:21.651288879Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:47:21.657745963Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:47:21.659035879Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:47:21.660266171Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:47:21.661718463Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:47:21.664030504Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:47:21.664342838Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:47:21.666849713Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:47:21.666492004Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:47:21.668774879Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:47:21.669505796Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:47:21.669344754Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:47:21.669368588Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:47:21.671692629Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:47:21.671333588Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:47:21.672801088Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:47:51.607931379Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":21}
+{"time":"2026-04-19T11:47:51.612579921Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":29}
+{"time":"2026-04-19T11:47:51.624230629Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":40}
+{"time":"2026-04-19T11:47:51.662387129Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:47:51.662763421Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:47:51.662776171Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:47:51.672265713Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:47:51.673571713Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:47:51.673245713Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:47:51.674210671Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:47:51.673746754Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:47:51.674859754Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:47:51.676455921Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:47:51.677281338Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:47:51.678033379Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:47:51.678586588Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:47:51.679060588Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:47:51.680890963Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:47:51.682531338Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:47:51.683674296Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:47:51.683932004Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:48:21.609838546Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":33}
+{"time":"2026-04-19T11:48:21.609837004Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":33}
+{"time":"2026-04-19T11:48:21.620130629Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:48:21.620540504Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:48:21.628189046Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":51}
+{"time":"2026-04-19T11:48:21.628907671Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:48:21.629249754Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:48:21.631801296Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:48:21.632289796Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:48:21.632695046Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:48:21.632640296Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:48:21.633274004Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:48:21.633779171Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:48:21.634267671Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:48:21.634612088Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:48:21.635892713Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:48:21.636800796Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:48:21.637334004Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:48:21.638071629Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:48:21.639089629Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:48:21.639385088Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:48:51.604575588Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":33}
+{"time":"2026-04-19T11:48:51.611855754Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:48:51.612538838Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":42}
+{"time":"2026-04-19T11:48:51.615066921Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:48:51.615512254Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:48:51.615744546Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:48:51.616943838Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:48:51.617153463Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:48:51.618976379Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:48:51.620200296Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:48:51.620627671Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:48:51.621043546Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:48:51.621808546Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:48:51.622065129Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:48:51.711074838Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":141}
+{"time":"2026-04-19T11:48:51.725808129Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:48:51.727324171Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:48:51.727627713Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:48:51.730008463Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:48:51.730704588Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:48:51.730903671Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:49:21.612376379Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":41}
+{"time":"2026-04-19T11:49:21.612558504Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":41}
+{"time":"2026-04-19T11:49:21.618544213Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:49:21.618838129Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:49:21.622063129Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:49:21.622337963Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:49:21.622160004Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:49:21.622765963Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:49:21.625501796Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:49:21.626018296Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:49:21.626815713Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:49:21.627179129Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:49:21.627363754Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:49:21.627578671Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:49:21.637786588Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":66}
+{"time":"2026-04-19T11:49:21.639772588Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:49:21.640584921Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:49:21.640791504Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":23.87}
+{"time":"2026-04-19T11:49:21.642805671Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:49:21.643424671Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:36:15Z"}
+{"time":"2026-04-19T11:49:21.643699463Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:49:51.626773254Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":45}
+{"time":"2026-04-19T11:49:51.626773129Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":45}
+{"time":"2026-04-19T11:49:51.637471921Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:49:51.637882879Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:49:51.645386421Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:49:51.645386421Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:49:51.646022754Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:49:51.645802421Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:49:51.647669504Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":67}
+{"time":"2026-04-19T11:49:51.666639546Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:49:51.668202046Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:49:51.668597213Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:49:51.671435129Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:49:51.669695379Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:49:51.675076713Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:49:51.672594838Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:49:51.672601963Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:49:51.677428254Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:49:51.682577296Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:49:51.684671963Z","level":"INFO","msg":"processed data saved to postgres","table":"weather.weather_processed","city":"Madrid"}
+{"time":"2026-04-19T11:49:51.684911338Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:50:21.624090504Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":50}
+{"time":"2026-04-19T11:50:21.624088796Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":50}
+{"time":"2026-04-19T11:50:21.631513296Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:50:21.631912588Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:50:21.643445671Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":71}
+{"time":"2026-04-19T11:50:21.644451504Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:50:21.644795463Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:50:21.644262796Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:50:21.645412629Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:50:21.647415546Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:50:21.649848421Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:50:21.650935004Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:50:21.651070838Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:50:21.652900838Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:50:21.653500379Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:50:21.654376963Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:50:21.654204504Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:10Z"}
+{"time":"2026-04-19T11:50:21.655051629Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:50:21.655752671Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:50:21.656387921Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:50:21.656647088Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:50:51.613344296Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":39}
+{"time":"2026-04-19T11:50:51.613489004Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":38}
+{"time":"2026-04-19T11:50:51.626775504Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:50:51.627055004Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:50:51.630214671Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:50:51.630481504Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:50:51.630315671Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:50:51.631193504Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:50:51.634112713Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:50:51.634440546Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":60}
+{"time":"2026-04-19T11:50:51.634498671Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:50:51.635528046Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:50:51.636060296Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:10Z"}
+{"time":"2026-04-19T11:50:51.636389463Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:50:51.636087046Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:50:51.637663588Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:50:51.638450713Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:50:51.638669463Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:50:51.642276171Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:50:51.642871213Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:50:51.643127754Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:51:21.678987046Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":103}
+{"time":"2026-04-19T11:51:21.679004671Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":105}
+{"time":"2026-04-19T11:51:21.695729213Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:51:21.696191838Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:51:21.699658129Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:51:21.699995254Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:51:21.703373963Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:51:21.703871838Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:51:21.704272504Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:51:21.703904963Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":127}
+{"time":"2026-04-19T11:51:21.704705754Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:51:21.707090296Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:51:21.708690754Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:51:21.709188213Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:51:21.709592588Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:10Z"}
+{"time":"2026-04-19T11:51:21.709789296Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:51:21.710427921Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:51:21.710712838Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:51:21.712813463Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:51:21.713448671Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:51:21.713966463Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:51:51.616632254Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":39}
+{"time":"2026-04-19T11:51:51.616632796Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":43}
+{"time":"2026-04-19T11:51:51.624014463Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:51:51.624532338Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:51:51.628346296Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:51:51.628693379Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:51:51.631670421Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:51:51.632058796Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:51:51.632273338Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:51:51.636330588Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:51:51.638176671Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":64}
+{"time":"2026-04-19T11:51:51.638480421Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:51:51.638599379Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:51:51.639900129Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:51:51.639457338Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:51:51.643886713Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:51:51.646505171Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:51:51.646856171Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:51:51.649478004Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:51:51.650294254Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:10Z"}
+{"time":"2026-04-19T11:51:51.650612754Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:52:21.615611296Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":37}
+{"time":"2026-04-19T11:52:21.618183796Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":41}
+{"time":"2026-04-19T11:52:21.635142963Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":58}
+{"time":"2026-04-19T11:52:21.638890171Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:52:21.639281129Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:52:21.646291754Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:52:21.646468921Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:52:21.647214921Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:52:21.646873754Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:52:21.647948879Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:52:21.647452754Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:52:21.649997129Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:52:21.650752421Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:52:21.652076088Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:10Z"}
+{"time":"2026-04-19T11:52:21.652470129Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:52:21.653134088Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:52:21.653893338Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:52:21.654170504Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:52:21.654030963Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:52:21.657057546Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:52:21.657455504Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:52:51.618948921Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":44}
+{"time":"2026-04-19T11:52:51.620637046Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":45}
+{"time":"2026-04-19T11:52:51.624775963Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:52:51.625186296Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:52:51.632515046Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:52:51.633005546Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:52:51.637213713Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:52:51.640425921Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:52:51.640948671Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:52:51.642717671Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:52:51.642993463Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:52:51.644146754Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:52:51.644677879Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":68}
+{"time":"2026-04-19T11:52:51.645050879Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:10Z"}
+{"time":"2026-04-19T11:52:51.645423338Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:52:51.646951213Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:52:51.647781546Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:52:51.648056921Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:52:51.650315588Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:52:51.650854171Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:52:51.651050671Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:53:21.736011921Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":165}
+{"time":"2026-04-19T11:53:21.735970129Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":160}
+{"time":"2026-04-19T11:53:21.743809296Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:53:21.744216296Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:53:21.759772463Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":191}
+{"time":"2026-04-19T11:53:21.759772671Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:53:21.761117796Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:53:21.760630338Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:53:21.764796463Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:53:21.769213588Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:53:21.771280838Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:53:21.771639421Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:53:21.771309129Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:53:21.771701254Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:53:21.773481879Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:53:21.773851296Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:53:21.774092838Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:10Z"}
+{"time":"2026-04-19T11:53:21.774344713Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:53:21.776052504Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:53:21.777721754Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:53:21.777975671Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:53:51.618282963Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":41}
+{"time":"2026-04-19T11:53:51.618314046Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":40}
+{"time":"2026-04-19T11:53:51.630513796Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:53:51.631566171Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:53:51.639160754Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":65}
+{"time":"2026-04-19T11:53:51.640999588Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:53:51.641271796Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:53:51.643633588Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:53:51.644162921Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:53:51.644528504Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:53:51.645039046Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:53:51.646015338Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:53:51.646289379Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:53:51.646045921Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:10Z"}
+{"time":"2026-04-19T11:53:51.647103129Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:53:51.647303129Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:53:51.648104963Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:53:51.648622171Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:53:51.649476963Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:53:51.650171504Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:53:51.650381629Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:54:21.612110546Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":41}
+{"time":"2026-04-19T11:54:21.612122421Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":39}
+{"time":"2026-04-19T11:54:21.619531713Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:54:21.620236213Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:54:21.624436504Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:54:21.624807379Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:54:21.624492963Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:54:21.625543796Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:54:21.628840838Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:54:21.629277004Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:54:21.630302671Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:10Z"}
+{"time":"2026-04-19T11:54:21.630661838Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:54:21.630943671Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:54:21.631252671Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:54:21.632664754Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":61}
+{"time":"2026-04-19T11:54:21.636581004Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:54:21.638318963Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:54:21.638681296Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:54:21.642215713Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:54:21.643021296Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:54:21.643347254Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:54:51.619284296Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":42}
+{"time":"2026-04-19T11:54:51.620447421Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":45}
+{"time":"2026-04-19T11:54:51.629955296Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:54:51.630691713Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:54:51.637529754Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:54:51.637899629Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:54:51.637537629Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:54:51.638695546Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:54:51.638105838Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":62}
+{"time":"2026-04-19T11:54:51.642018546Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:54:51.642428129Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:54:51.643070504Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:54:51.644089838Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:54:51.644798088Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:54:51.644945588Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:54:51.646316338Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:54:51.657721254Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:54:51.661160629Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:54:51.661709129Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:54:51.671089796Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:10Z"}
+{"time":"2026-04-19T11:54:51.671469963Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:55:21.626013296Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":51}
+{"time":"2026-04-19T11:55:21.633447546Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":61}
+{"time":"2026-04-19T11:55:21.634271671Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:55:21.636955796Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:55:21.641127671Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:55:21.641525213Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:55:21.644157921Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:55:21.645144713Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:55:21.645928921Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.58}
+{"time":"2026-04-19T11:55:21.646285629Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":71}
+{"time":"2026-04-19T11:55:21.646337504Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:10Z"}
+{"time":"2026-04-19T11:55:21.647188129Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:55:21.649365088Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:55:21.651354588Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:41:06Z"}
+{"time":"2026-04-19T11:55:21.652291546Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:55:21.651990588Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:55:21.653631546Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:55:21.653918963Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.59}
+{"time":"2026-04-19T11:55:21.656400838Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:55:21.657080338Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:41:26Z"}
+{"time":"2026-04-19T11:55:21.657337213Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:55:51.754943671Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":175}
+{"time":"2026-04-19T11:55:51.754943671Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":177}
+{"time":"2026-04-19T11:55:51.754942046Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":174}
+{"time":"2026-04-19T11:55:51.765716129Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:55:51.767596379Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:55:51.770655463Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:55:51.767600171Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:55:51.772047838Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:55:51.772312546Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T11:55:51.771769004Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:55:51.773292671Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:55:51.773552171Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T11:55:51.779924296Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:55:51.780019963Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:55:51.783694754Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:55:51.784480171Z","level":"INFO","msg":"processed data saved to postgres","table":"weather.weather_processed","city":"London"}
+{"time":"2026-04-19T11:55:51.785018171Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:55:51.784889588Z","level":"INFO","msg":"processed data saved to postgres","table":"weather.weather_processed","city":"Prague"}
+{"time":"2026-04-19T11:55:51.786346338Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:55:51.794014713Z","level":"INFO","msg":"processed data saved to postgres","table":"weather.weather_processed","city":"Madrid"}
+{"time":"2026-04-19T11:55:51.794327921Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:56:21.614905338Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":41}
+{"time":"2026-04-19T11:56:21.615185546Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":42}
+{"time":"2026-04-19T11:56:21.620341629Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:56:21.620641213Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:56:21.632532963Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:56:21.633486379Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T11:56:21.636813504Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:56:21.637296338Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:56:21.637627421Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T11:56:21.640008588Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:56:21.640502796Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":67}
+{"time":"2026-04-19T11:56:21.640857879Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T11:56:21.641256671Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:56:21.640860338Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T11:56:21.641752421Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:56:21.643321171Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:56:21.644336379Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:56:21.644537046Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:56:21.646644129Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:56:21.647177213Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:21Z"}
+{"time":"2026-04-19T11:56:21.647374171Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:56:51.602962879Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":30}
+{"time":"2026-04-19T11:56:51.614007546Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":41}
+{"time":"2026-04-19T11:56:51.623607671Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":52}
+{"time":"2026-04-19T11:56:51.645823588Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:56:51.645823504Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:56:51.658855754Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:56:51.660230713Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T11:56:51.662500296Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:56:51.662883963Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:56:51.663993421Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:56:51.664124546Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:56:51.664635671Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T11:56:51.677725754Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:56:51.678093254Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:56:51.678106463Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:56:51.679226421Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T11:56:51.679774546Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:56:51.680141963Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:21Z"}
+{"time":"2026-04-19T11:56:51.680571546Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:56:51.695915004Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T11:56:51.696519963Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:57:21.627452754Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":40}
+{"time":"2026-04-19T11:57:21.627454296Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":41}
+{"time":"2026-04-19T11:57:21.646388629Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":61}
+{"time":"2026-04-19T11:57:21.659964088Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:57:21.665854129Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:57:21.665935504Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:57:21.673425713Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:57:21.673961213Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T11:57:21.673531921Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:57:21.674942421Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T11:57:21.679156338Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:57:21.680809213Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T11:57:21.681159879Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:57:21.680927004Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:57:21.683115463Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T11:57:21.683415004Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:57:21.693857546Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:57:21.694192421Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:57:21.696722004Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:57:21.697502546Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:21Z"}
+{"time":"2026-04-19T11:57:21.697770546Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:57:51.715820004Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":133}
+{"time":"2026-04-19T11:57:51.716528879Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":134}
+{"time":"2026-04-19T11:57:51.747581129Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:57:51.748158713Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:57:51.752831129Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:57:51.753222379Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T11:57:51.752839296Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:57:51.753902046Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T11:57:51.757747254Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:57:51.758219338Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:57:51.759002504Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T11:57:51.759247963Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:57:51.759469338Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T11:57:51.759788379Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:57:51.761566296Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":176}
+{"time":"2026-04-19T11:57:51.764282754Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:57:51.765016588Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:57:51.765261046Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:57:51.767113129Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:57:51.767990379Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:21Z"}
+{"time":"2026-04-19T11:57:51.768192338Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:58:21.620950338Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":38}
+{"time":"2026-04-19T11:58:21.620948463Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":37}
+{"time":"2026-04-19T11:58:21.636456129Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:58:21.636965629Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:58:21.638505921Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":56}
+{"time":"2026-04-19T11:58:21.644535046Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:58:21.645016671Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:58:21.645300546Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T11:58:21.645762879Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:58:21.644584338Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:58:21.646386713Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T11:58:21.646118879Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.19}
+{"time":"2026-04-19T11:58:21.654913546Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:58:21.656046463Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T11:58:21.656432463Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:58:21.660525338Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:58:21.660844004Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:58:21.661447088Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T11:58:21.661680754Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:58:21.661641129Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:47:21Z"}
+{"time":"2026-04-19T11:58:21.662084004Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:58:51.614187046Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":38}
+{"time":"2026-04-19T11:58:51.614191046Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":38}
+{"time":"2026-04-19T11:58:51.623680921Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:58:51.624353629Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:58:51.633728379Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:58:51.634273963Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T11:58:51.633821754Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:58:51.635107671Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T11:58:51.637059921Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":60}
+{"time":"2026-04-19T11:58:51.643218921Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:58:51.646981629Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:58:51.648868588Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T11:58:51.649639963Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:58:51.649242629Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:58:51.650075171Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:58:51.651339129Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.38}
+{"time":"2026-04-19T11:58:51.651999421Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T11:58:51.653071171Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:58:51.655335129Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:58:51.656936213Z","level":"INFO","msg":"processed data saved to postgres","table":"weather.weather_processed","city":"Madrid"}
+{"time":"2026-04-19T11:58:51.657138463Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:59:21.620500088Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":40}
+{"time":"2026-04-19T11:59:21.625952379Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":46}
+{"time":"2026-04-19T11:59:21.632050796Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:59:21.632430171Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:59:21.636763588Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:59:21.637312963Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.38}
+{"time":"2026-04-19T11:59:21.641515421Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:59:21.641971588Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:59:21.642039338Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":63}
+{"time":"2026-04-19T11:59:21.642322463Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T11:59:21.642858629Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:57:19Z"}
+{"time":"2026-04-19T11:59:21.643537338Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T11:59:21.652122213Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:59:21.653496421Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:59:21.653523129Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:59:21.654122421Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T11:59:21.654262379Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T11:59:21.654664046Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:59:21.658461838Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:59:21.659245129Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T11:59:21.659519379Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:59:51.628034671Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":47}
+{"time":"2026-04-19T11:59:51.628052046Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":51}
+{"time":"2026-04-19T11:59:51.637641004Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:59:51.639013671Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:59:51.641689004Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T11:59:51.642185296Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T11:59:51.645570296Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T11:59:51.645979129Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T11:59:51.646202546Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T11:59:51.648850088Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T11:59:51.649712588Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T11:59:51.650045671Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T11:59:51.650313046Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T11:59:51.650603129Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T11:59:51.650398671Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":69}
+{"time":"2026-04-19T11:59:51.653221754Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:59:51.654371046Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T11:59:51.654697963Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.38}
+{"time":"2026-04-19T11:59:51.659328254Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T11:59:51.661764338Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:57:19Z"}
+{"time":"2026-04-19T11:59:51.662224671Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T12:00:21.661941171Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":89}
+{"time":"2026-04-19T12:00:21.664308379Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":89}
+{"time":"2026-04-19T12:00:21.670051046Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T12:00:21.670341504Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T12:00:21.675911338Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T12:00:21.676238504Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T12:00:21.679593046Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T12:00:21.679957879Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T12:00:21.680205713Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T12:00:21.682628129Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T12:00:21.683350838Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T12:00:21.683595213Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T12:00:21.683353171Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T12:00:21.684171129Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T12:00:21.684015713Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":113}
+{"time":"2026-04-19T12:00:21.686488338Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T12:00:21.687244254Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T12:00:21.687441088Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.38}
+{"time":"2026-04-19T12:00:21.689579171Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T12:00:21.690090796Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:57:19Z"}
+{"time":"2026-04-19T12:00:21.690296879Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T12:00:51.617470921Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":40}
+{"time":"2026-04-19T12:00:51.621115838Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":45}
+{"time":"2026-04-19T12:00:51.637740046Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":62}
+{"time":"2026-04-19T12:00:51.639825588Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T12:00:51.640984921Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T12:00:51.645104254Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T12:00:51.645553254Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.38}
+{"time":"2026-04-19T12:00:51.645675629Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T12:00:51.645691504Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T12:00:51.646591921Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T12:00:51.647161088Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T12:00:51.650258796Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T12:00:51.657488213Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T12:00:51.657481296Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T12:00:51.662809879Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T12:00:51.663356796Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:57:19Z"}
+{"time":"2026-04-19T12:00:51.664744838Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T12:00:51.664964921Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T12:00:51.666093213Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T12:00:51.663653963Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T12:00:51.667335254Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T12:01:21.623017838Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":43}
+{"time":"2026-04-19T12:01:21.623018213Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":42}
+{"time":"2026-04-19T12:01:21.633642713Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T12:01:21.634938421Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T12:01:21.641292463Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T12:01:21.641790129Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T12:01:21.645742546Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T12:01:21.646502213Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T12:01:21.646830921Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.38}
+{"time":"2026-04-19T12:01:21.651327963Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T12:01:21.651862921Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":72}
+{"time":"2026-04-19T12:01:21.652409046Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:57:19Z"}
+{"time":"2026-04-19T12:01:21.652759421Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T12:01:21.652409046Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T12:01:21.653313421Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T12:01:21.654439046Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T12:01:21.656076254Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T12:01:21.656395004Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T12:01:21.659255088Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T12:01:21.660006338Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T12:01:21.660417671Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T12:01:51.615147088Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":37}
+{"time":"2026-04-19T12:01:51.615145546Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":37}
+{"time":"2026-04-19T12:01:51.627757713Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T12:01:51.628753838Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T12:01:51.633232421Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T12:01:51.633618504Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T12:01:51.637716046Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T12:01:51.638710046Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":61}
+{"time":"2026-04-19T12:01:51.638743254Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T12:01:51.639739171Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.38}
+{"time":"2026-04-19T12:01:51.641971963Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T12:01:51.643479463Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T12:01:51.644396129Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T12:01:51.645949296Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T12:01:51.646434296Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T12:01:51.646299671Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T12:01:51.650777796Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:57:19Z"}
+{"time":"2026-04-19T12:01:51.651116546Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
+{"time":"2026-04-19T12:01:51.652959254Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T12:01:51.653586671Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T12:01:51.653780171Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T12:02:21.713302546Z","level":"INFO","msg":"api request succeeded","city":"London","latency_ms":126}
+{"time":"2026-04-19T12:02:21.713673296Z","level":"INFO","msg":"api request succeeded","city":"Prague","latency_ms":128}
+{"time":"2026-04-19T12:02:21.746706296Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T12:02:21.747250796Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T12:02:21.752849338Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"London"}
+{"time":"2026-04-19T12:02:21.753406796Z","level":"INFO","msg":"transformation succeeded","city":"London","temp_c":14.87}
+{"time":"2026-04-19T12:02:21.752923588Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Prague"}
+{"time":"2026-04-19T12:02:21.754228379Z","level":"INFO","msg":"transformation succeeded","city":"Prague","temp_c":14.64}
+{"time":"2026-04-19T12:02:21.762496338Z","level":"INFO","msg":"api request succeeded","city":"Madrid","latency_ms":176}
+{"time":"2026-04-19T12:02:21.763071671Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"London"}
+{"time":"2026-04-19T12:02:21.763086754Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Prague"}
+{"time":"2026-04-19T12:02:21.767084171Z","level":"INFO","msg":"processed record skipped as duplicate","city":"London","observed_at":"2026-04-19T11:50:10Z"}
+{"time":"2026-04-19T12:02:21.767418088Z","level":"INFO","msg":"etl cycle completed successfully","city":"London"}
+{"time":"2026-04-19T12:02:21.768213129Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Prague","observed_at":"2026-04-19T11:51:17Z"}
+{"time":"2026-04-19T12:02:21.768532171Z","level":"INFO","msg":"etl cycle completed successfully","city":"Prague"}
+{"time":"2026-04-19T12:02:21.768644713Z","level":"INFO","msg":"raw data saved to file","file":"data/raw/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T12:02:21.769758046Z","level":"INFO","msg":"raw data saved to postgres","table":"weather.weather_raw","city":"Madrid"}
+{"time":"2026-04-19T12:02:21.770129129Z","level":"INFO","msg":"transformation succeeded","city":"Madrid","temp_c":24.38}
+{"time":"2026-04-19T12:02:21.773032213Z","level":"INFO","msg":"processed data saved to file","file":"data/processed/2026-04-19.json","city":"Madrid"}
+{"time":"2026-04-19T12:02:21.773717629Z","level":"INFO","msg":"processed record skipped as duplicate","city":"Madrid","observed_at":"2026-04-19T11:57:19Z"}
+{"time":"2026-04-19T12:02:21.774107296Z","level":"INFO","msg":"etl cycle completed successfully","city":"Madrid"}
